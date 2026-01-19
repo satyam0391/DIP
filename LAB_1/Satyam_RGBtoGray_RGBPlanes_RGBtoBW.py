@@ -3,7 +3,7 @@ import numpy as np
 import os
 import matplotlib.pyplot as plt
 
-def jayant_RGBtoGray_RGBPlanes_RGBtoBW(imgg, choice, gray_logic=1):
+def satyam_RGBtoGray_RGBPlanes_RGBtoBW(imgg, choice, gray_logic=1):
     """
     Function to process image based on choice:
     choice:
@@ -99,5 +99,6 @@ def jayant_RGBtoGray_RGBPlanes_RGBtoBW(imgg, choice, gray_logic=1):
 
 
 # Example usage
-jayant_RGBtoGray_RGBPlanes_RGBtoBW("node.png", choice=1, gray_logic=1)
+satyam_RGBtoGray_RGBPlanes_RGBtoBW("node.png", choice=1, gray_logic=1)
+
 
