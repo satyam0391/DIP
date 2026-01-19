@@ -6,7 +6,7 @@ Extract individual Red, Green, and Blue color planes
 Convert a Grayscale image to a Black and White (binary) image
 File Structure
 LAB_1/
-    jayant_RGBtoGray_RGBPlanes_RGBtoBW.py
+    satyam_RGBtoGray_RGBPlanes_RGBtoBW.py
     node.png
     output_imgs/
         balck_and_white.png
@@ -25,7 +25,7 @@ pip install opencv-python numpy matplotlib
 Usage
 Run the script with your image and desired operation. Example:
 
-jayant_RGBtoGray_RGBPlanes_RGBtoBW("node.png", choice=1, gray_logic=1)
+satyam_RGBtoGray_RGBPlanes_RGBtoBW("node.png", choice=1, gray_logic=1)
 Function Arguments
 imgg: Path to the input image file (relative or absolute)
 choice: Operation to perform:
@@ -40,17 +40,18 @@ gray_logic: (Only for choice=1) Grayscale conversion logic:
 3: Pixel-wise weighted sum using loops
 Example Calls
 # Weighted Grayscale
-jayant_RGBtoGray_RGBPlanes_RGBtoBW("node.png", choice=1, gray_logic=1)
+satyam_RGBtoGray_RGBPlanes_RGBtoBW("node.png", choice=1, gray_logic=1)
 
 # Red Plane
-jayant_RGBtoGray_RGBPlanes_RGBtoBW("node.png", choice=2)
+satyam_RGBtoGray_RGBPlanes_RGBtoBW("node.png", choice=2)
 
 # Black and White
-jayant_RGBtoGray_RGBPlanes_RGBtoBW("node.png", choice=5)
+satyam_RGBtoGray_RGBPlanes_RGBtoBW("node.png", choice=5)
 Output
 The processed images are displayed using Matplotlib. Example output images are saved in the output_imgs/ folder.
 
 Author
-Jayant Kumar
+Satyam Nishad
+
 
 Feel free to fork, use, and modify for your digital image processing experiments!
