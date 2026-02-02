@@ -63,4 +63,4 @@ This repository is intended solely for **educational purposes**, representing ac
 
 ## ✍️ Author
 **Satyam Nishad**  
-ECE Student | Digital Image Processing Enthusiast  
+ECE Student | Digital Image Processing
